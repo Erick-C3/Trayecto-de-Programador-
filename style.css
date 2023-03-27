@@ -1,0 +1,21 @@
+:root{
+    --tam-info-clases-pc: 30vh;
+    --tam-info-clases-cel: 50vh;
+}
+
+.scrollspy-seguimiento {
+    height: var(--tam-info-clases-pc);
+    overflow: auto;
+}
+
+@media (max-width: 800px) {
+    .scrollspy-seguimiento {
+        height: var(--tam-info-clases-cel);
+        overflow: auto;
+    }
+}
+
+#navegador-anidado-clases {
+    width: 100%;
+    padding: 3vh 0px 0px 3vh;
+}
