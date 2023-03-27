@@ -3,12 +3,16 @@ class Practica {
     #numero;
     #descripcion;
     #tipoEntrega;
+    #enunciado;
+    #tieneResuelto;
 
-    constructor(modulo, numero, descripcion, tipoEntrega = "github"){
+    constructor(modulo, numero, descripcion, enunciado, tieneResuelto = false, tipoEntrega = "github"){
         this.#modulo = modulo;
         this.#numero = numero;
         this.#descripcion = descripcion;
+        this.#enunciado = enunciado;
         this.#tipoEntrega = tipoEntrega;
+        this.#tieneResuelto = tieneResuelto;
     }
 
     getModulo(){
@@ -22,6 +26,12 @@ class Practica {
     }
     getTipoEntrega(){
         return this.#tipoEntrega;
+    }
+    getEnunciado(){
+        return this.#enunciado;
+    }
+    getTieneResuelto(){
+        return this.#tieneResuelto;
     }
 }
 
