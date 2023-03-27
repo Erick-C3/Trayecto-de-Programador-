@@ -27,8 +27,7 @@ const practicas = [
         1,
         3,
         "Primer uso de README (markdown), primer uso de git y github",
-        "https://drive.google.com/file/d/1G7NRLMbObsa0lFjD4N0kb9TQpLz-6ICx/view?usp=sharing",
-        true
+        "https://drive.google.com/file/d/1G7NRLMbObsa0lFjD4N0kb9TQpLz-6ICx/view?usp=sharing"
     ),
     new Practica(
         1,
