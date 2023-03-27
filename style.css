@@ -1,6 +1,6 @@
 :root{
     --tam-info-clases-pc: 30vh;
-    --tam-info-clases-cel: 50vh;
+    --tam-info-clases-cel: 70vh;
 }
 
 .scrollspy-seguimiento {
@@ -18,4 +18,8 @@
 #navegador-anidado-clases {
     width: 100%;
     padding: 3vh 0px 0px 3vh;
+}
+
+.item{
+    padding-bottom: 30vh;
 }
