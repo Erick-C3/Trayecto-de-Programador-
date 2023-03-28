@@ -1,6 +1,9 @@
 import Practica from "./Practica.js";
 import practicas from "./practicasInfo.js";
 
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
 /**
  * Agrega los item a la pagina
  */
@@ -11,7 +14,7 @@ function agregarEnlacesItems(){
     practicas.forEach(practica => {
         nombreItem = practica.getModulo() + "-" + practica.getNumero();
         enlaceItem = `
-            <a class="nav-link" href="#practica-${nombreItem}">Practica ${nombreItem}</a>
+            <a class="nav-link" href="#practica-${nombreItem}">Práctica ${nombreItem}</a>
         `
         itemInfo = prepararHTMLItemInfo(nombreItem, practica);
         document.querySelector("#enlaces-practicas").innerHTML += enlaceItem;
