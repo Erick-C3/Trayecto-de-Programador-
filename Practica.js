@@ -11,8 +11,8 @@ class Practica {
         this.#numero = numero;
         this.#descripcion = descripcion;
         this.#enunciado = enunciado;
-        this.#tipoEntrega = tipoEntrega;
         this.#tieneResuelto = tieneResuelto;
+        this.#tipoEntrega = tipoEntrega;
     }
 
     getModulo(){

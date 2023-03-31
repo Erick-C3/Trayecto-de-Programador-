@@ -35,6 +35,24 @@ const practicas = [
         "Uso de etiqueta details y a, repaso de lo visto anteriormente",
         "https://drive.google.com/file/d/1TwSTp5voEDgzWou2KCC4zKuLcsHrDTTB/view?usp=sharing",
         true
+    ),
+    new Practica(
+        1,
+        5,
+        "Agregar el algoritmo cotidiano desarrollado a una pagina, repaso de lo visto anteriormente",
+        "https://drive.google.com/file/d/1BTvMQiT40yvXTI96WRGvq9kDQtbTN0rc/view?usp=sharing"
+    ),
+    new Practica(
+        1,
+        "6 (Primer parte)",
+        "Uso de acciones primitivas para poder recibir y manipular informacion",
+        "https://drive.google.com/file/d/1OjNQ1H2H21pId0OR4TjuQtjsq4qH5_97/view?usp=sharing"
+    ),
+    new Practica(
+        1,
+        "6 (Segunda parte)",
+        "Uso de acciones primitivas y tipos de datos primitivos para poder recibir y manipular informacion",
+        "https://drive.google.com/file/d/1lPAu2QU9aNHllN0g_5WsUb9JB8N0jM64/view?usp=sharing"
     )
 ];
 
