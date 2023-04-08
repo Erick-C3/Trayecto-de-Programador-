@@ -56,7 +56,7 @@ function prepararHTMLItemInfo(nombreItem, practica){
  * @returns mensaje indicando si dispone o no de resuelto
  */
 function verificarResuelto(tieneResuelto){
-    return tieneResuelto ? "Disponible": "No disponible";
+    return tieneResuelto ? "<strong>Disponible</strong>": "No disponible";
 }
 
 agregarEnlacesItems();
