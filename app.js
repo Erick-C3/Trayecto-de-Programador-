@@ -8,15 +8,17 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
  * Agrega los item a la pagina
  */
 function agregarEnlacesItems(){
-    let enlaceItem = "def enlace";
+    let enlaceItem = "def item enlace";
     let itemInfo = "def item info";
-    let nombreItem = "def nombre";
+    let nombreItem = "def item nombre";
+    let numeroItem = "def item numero";
     practicas.forEach(practica => {
-        nombreItem = practica.getModulo() + "-" + practica.getNumero();
+        nombreItem = practica.getModulo() + "-" + practica.getNumero() + " " + practica.getInfoExtra();
+        numeroItem =  practica.getModulo() + "-" + practica.getNumero();
         enlaceItem = `
-            <a class="nav-link" href="#practica-${nombreItem}">Práctica ${nombreItem}</a>
+            <a class="nav-link" href="#practica-${numeroItem}">Práctica ${nombreItem}</a>
         `
-        itemInfo = prepararHTMLItemInfo(nombreItem, practica);
+        itemInfo = prepararHTMLItemInfo(numeroItem, practica, nombreItem);
         document.querySelector("#enlaces-practicas").innerHTML += enlaceItem;
         document.querySelector("#enlaces-practicas-detalles").innerHTML += itemInfo;
     });
@@ -24,13 +26,13 @@ function agregarEnlacesItems(){
 
 /**
  * Prepara el html para agregar la info de la practica
- * @param {String} nombreItem de la practica
+ * @param {String} numeroItem de la practica
  * @param {Practica} practica a agregar
  * @returns html para  la info de la practica
  */
-function prepararHTMLItemInfo(nombreItem, practica){
+function prepararHTMLItemInfo(numeroItem, practica, nombreItem){
     return `
-        <div class="item" id="practica-${nombreItem}">
+        <div class="item" id="practica-${numeroItem}">
             <h4>Practica ${nombreItem}</h4>
             <ul>
                 <li>
