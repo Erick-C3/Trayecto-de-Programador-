@@ -1,8 +1,10 @@
 :root{
-    --color-fondo-claro: withe;
-    --color-fondo-detalles-contenido: rgb(225, 224, 224);
+    --color-fondo-claro: whitesmoke;
+    --color-fondo-detalles-contenido: rgb(251, 251, 251);
+    --color-info-general: #dae1e2;
+    --color-txt-info-general: rgb(69, 69, 69);
 
-    --tam-info-clases-pc: 34vh;
+    --tam-info-clases-pc: 35vh;
     --tam-info-clases-cel: 70vh;
 }
 
@@ -12,10 +14,17 @@ body{
 
 .navbar{
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(193,193,193,1) 44%, rgba(255,255,255,1) 100%);
-    border: 1px solid black;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(242, 242, 242) 14%, rgba(255,255,255,1) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.216);
 }
 
+.btn-secondary{
+    --bs-btn-bg: var(--color-info-general);
+}
+
+.btn{
+    color: var(--color-txt-info-general);
+}
 .scrollspy-seguimiento {
     height: var(--tam-info-clases-pc);
     overflow: auto;
