@@ -1,0 +1,18 @@
+#material-clase-contenedor{
+    display: grid;
+    place-items: center;
+    
+}
+
+#material-clase-contenedor iframe{
+    height: 50vh;
+    width: 50%;
+}
+
+
+@media (max-width: 800px) {
+    #material-clase-contenedor iframe{
+        height: 60vh;
+        width: 100%;
+    }
+}
