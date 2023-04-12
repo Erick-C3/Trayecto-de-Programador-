@@ -1,4 +1,4 @@
-import Practica from "./Practica.js";
+import Practica from "../modelos/Practica.js";
 
 const INFO_EXTRA_DEF = "";
 

@@ -1,5 +1,5 @@
-import Practica from "./Practica.js";
-import practicas from "./practicasInfo.js";
+import Practica from "./modelos/Practica.js";
+import practicas from "./data/practicasInfo.js";
 
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
