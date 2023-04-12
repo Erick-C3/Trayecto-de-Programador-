@@ -1,6 +1,19 @@
 :root{
-    --tam-info-clases-pc: 30vh;
+    --color-fondo-claro: withe;
+    --color-fondo-detalles-contenido: rgb(225, 224, 224);
+
+    --tam-info-clases-pc: 34vh;
     --tam-info-clases-cel: 70vh;
+}
+
+body{
+    background-color:  var(--color-fondo-claro);
+}
+
+.navbar{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(193,193,193,1) 44%, rgba(255,255,255,1) 100%);
+    border: 1px solid black;
 }
 
 .scrollspy-seguimiento {
@@ -13,6 +26,23 @@
         height: var(--tam-info-clases-cel);
         overflow: auto;
     }
+}
+
+
+@media (max-width: 420px) {
+    
+    #navegador-anidado-clases {
+        margin: 0px;
+        padding: 0px !important;
+    }
+    
+    #navbar-example3{
+        padding: 0px !important;
+    }
+    .nav-link{
+        width: 26vw;
+    }
+    
 }
 
 #navegador-anidado-clases {
@@ -29,4 +59,13 @@
     margin-bottom: 7vh;
 }
 
+#enlaces-practicas{
+    background-color: var(--color-fondo-detalles-contenido);
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
+#enlaces-practicas-detalles{
+    background-color: var(--color-fondo-detalles-contenido);
+    border: 1px solid black;
+}
