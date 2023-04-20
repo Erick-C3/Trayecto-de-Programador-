@@ -1,6 +1,8 @@
 :root{
     --color-fondo-claro: whitesmoke;
     --bg-color-boton-navegacion: rgb(80, 127, 82);
+
+    --color-txt-seccion-naveggacion: whitesmoke;
 }
 
 body{
@@ -11,11 +13,17 @@ body{
     font-size: large;
     font-weight: 400;
     background-color: var(--bg-color-boton-navegacion);
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     border-radius: 1px;
 
 }
+.nav-principal-item:hover{
+    color: var(--color-txt-seccion-naveggacion);
 
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--color-txt-seccion-naveggacion);
+}
 
 .navbar{
     background: rgb(182,218,179);
