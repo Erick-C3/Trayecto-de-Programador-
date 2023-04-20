@@ -1,6 +1,7 @@
 #material-clase-contenedor{
     display: grid;
     place-items: center;
+    margin-top: 2vh;
     
 }
 
