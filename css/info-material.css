@@ -2,7 +2,7 @@
 
     --color-fondo-detalles-contenido: rgb(251, 251, 251);
 
-    --tam-info-clases-pc: 35vh;
+    --tam-info-clases-pc: 45vh;
     --tam-info-clases-cel: 70vh;
 }
 
@@ -18,6 +18,13 @@
         height: var(--tam-info-clases-cel);
         overflow: auto;
     }
+
+    #enlaces-practicas{
+        height: var(--tam-info-clases-cel) !important;
+    }
+   
+
+    
 }
 
 
@@ -34,6 +41,10 @@
     .nav-link{
         width: 26vw;
     }
+
+    #enlaces-practicas{
+        height: var(--tam-info-clases-cel) !important;
+    }
     
 }
 
@@ -49,9 +60,12 @@
 
 
 #enlaces-practicas{
+    display: grid;
     background-color: var(--color-fondo-detalles-contenido);
     border: 1px solid black;
     border-radius: 10px;
+    height: var(--tam-info-clases-pc);
+    overflow: auto;
 }
 
 #enlaces-practicas-detalles{

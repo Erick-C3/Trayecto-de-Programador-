@@ -12,7 +12,7 @@ function agregarEnlacesItems(){
     let itemInfo = "def item info";
     let nombreItem = "def item nombre";
     let numeroItem = "def item numero";
-    practicas.forEach(practica => {
+    practicas.reverse().forEach(practica => {
         nombreItem = practica.getModulo() + "-" + practica.getNumero() + " " + practica.getInfoExtra();
         numeroItem =  practica.getModulo() + "-" + practica.getNumero();
         enlaceItem = `

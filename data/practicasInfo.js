@@ -53,17 +53,31 @@ const practicas = [
     ),
     new Practica(
         1,
-        "6",
+        "6-A",
         "Uso de acciones primitivas para poder recibir y manipular informacion",
         "https://drive.google.com/file/d/1OjNQ1H2H21pId0OR4TjuQtjsq4qH5_97/view?usp=sharing",
         "(Primer parte)"
     ),
     new Practica(
         1,
-        "6",
+        "6-B",
         "Uso de acciones primitivas y tipos de datos primitivos para poder recibir y manipular informacion",
         "https://drive.google.com/file/d/1lPAu2QU9aNHllN0g_5WsUb9JB8N0jM64/view?usp=sharing",
         "(Segunda parte)"
+    ),
+    new Practica(
+        1,
+        7,
+        "Operaciones con variables",
+        "https://docs.google.com/presentation/d/1bF4F_mBAR7QbIAE5QNI_bLrvhse8XTd0PwjTs-NjSJA/edit?usp=sharing",
+        INFO_EXTRA_DEF
+    ),
+    new Practica(
+        1,
+        8,
+        "Operaciones booleanas",
+        "https://docs.google.com/presentation/d/1yUEtq7W6yvOHNX0FIQTacAN8YPkpNahgrfClP2Ks1jQ/edit?usp=sharing",
+        INFO_EXTRA_DEF
     )
 ];
 
