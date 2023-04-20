@@ -1,7 +1,5 @@
 :root{
     --color-fondo-claro: whitesmoke;
-    --color-info-general: #dae1e2;
-    --color-txt-info-general: rgb(69, 69, 69);
 }
 
 body{
@@ -24,18 +22,7 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.216);
 }
 
-.btn-secondary{
-    --bs-btn-bg: var(--color-info-general);
-}
 
-.btn{
-    color: var(--color-txt-info-general);
-}
-
-#info-general{
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
 
 #breadcrumb-contenedor{
     background-color: rgb(225, 225, 225);
