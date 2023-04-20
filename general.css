@@ -12,7 +12,8 @@ body{
     font-weight: 400;
     background-color: var(--bg-color-boton-navegacion);
     color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 1px;
+
 }
 
 
@@ -20,6 +21,9 @@ body{
     background: rgb(182,218,179);
     background: linear-gradient(0deg, rgba(182,218,179,1) 0%, rgba(241,247,239,1) 51%, rgba(182,218,179,1) 100%);
     border: 1px solid rgba(0, 0, 0, 0.216);
+
+    padding: 0px;
+
 }
 
 
@@ -27,4 +31,5 @@ body{
 #breadcrumb-contenedor{
     background-color: rgb(225, 225, 225);
     border-radius: 20px;
+    margin-top: 1vh;
 }
