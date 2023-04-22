@@ -1,0 +1,11 @@
+
+
+#recursos-contenedor{
+    display: grid;
+    margin-top: 10vh;
+    width: 30vw;
+}
+
+.btn-recurso{
+    margin-top: 5vh;
+}

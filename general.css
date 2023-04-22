@@ -17,6 +17,11 @@ body{
     border-radius: 1px;
 
 }
+
+.navegacion-item{
+    border: 1px solid rgba(0, 0, 0, 0.662);
+}
+
 .nav-principal-item:hover{
     color: var(--color-txt-seccion-naveggacion);
 

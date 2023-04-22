@@ -8,25 +8,25 @@
     <title>Trayecto de programador</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/info-material.css">
-    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="../css/recursos.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar  navbar-expand-lg ">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="./index.html">Hello world!</a>
+                <a class="navbar-brand" href="../index.html">Hello world!</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item navegacion-item">
-                        <a class="nav-principal-item nav-link" aria-current="page" href="html/material-clase.html" >Material día de clase</a>
+                        <a class="nav-principal-item nav-link" aria-current="page" href="./material-clase.html" >Material día de clase</a>
                       </li>
                       <li class="nav-item navegacion-item">
-                        <a class="nav-principal-item nav-link" aria-current="page" href="html/recursos-clase.html" >Recursos</a>
+                        <a class="nav-principal-item nav-link active" aria-current="page" href="./recursos-clase.html" >Recursos</a>
                       </li>
                     </ul>
                   </div>
@@ -35,7 +35,7 @@
         <div class="container" id="breadcrumb-contenedor">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item active"><a href="./index.html">Principal</a></li>
+                  <li class="breadcrumb-item active"><a href="./recursos-clase.html">Recursos</a></li>
                 </ol>
               </nav>
         </div>
@@ -54,21 +54,9 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="navegador-anidado-clases">
-            <div class="col-4">
-                <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
-                    <nav id="enlaces-practicas" class="nav nav-pills flex-column">
-
-                    </nav>
-                </nav>
-            </div>
-
-            <div class="col-8">
-                <div id="enlaces-practicas-detalles" data-bs-spy="scroll" data-bs-target="#navbar-example3"
-                    data-bs-smooth-scroll="true" class="scrollspy-seguimiento" tabindex="0">
-
-                </div>
-            </div>
+        <div class="container" id="recursos-contenedor">
+            <a class="btn btn-primary btn-recurso"  href="https://docs.google.com/spreadsheets/d/1ABoRm0hnEBmyuTJa_gY1qsEBNdoUjQwpxm_osxqAG08/edit?usp=sharing" role="button" aria-disabled="true">Clases grabadas turno mañana</a>
+            <a class="btn btn-primary btn-recurso"  href="https://docs.google.com/spreadsheets/d/1SJICkZYOJzy7Oehd5OM6JElnAJH_1Q2VPiIe5SnyLzA/edit?usp=sharing" role="button" aria-disabled="true">Clases grabadas turno noche</a>
         </div>
     </main>
     <footer class="text-center text-lg-start bg-light text-muted mt-auto">
@@ -95,3 +83,5 @@
 </body>
 
 </html>
+
+ 
