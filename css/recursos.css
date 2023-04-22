@@ -2,10 +2,10 @@
 
 #recursos-contenedor{
     display: grid;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 30vw;
 }
 
 .btn-recurso{
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
