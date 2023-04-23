@@ -1,8 +1,14 @@
 :root{
     --color-fondo-claro: whitesmoke;
-    --bg-color-boton-navegacion: rgb(80, 127, 82);
+    --bg-color-btn-nav: rgb(176, 206, 177);
+    --bg-color-btn-nav-hover: rgb(47, 70, 48);
+    --b--bg-color-btn-nav-active: rgba(47, 129, 55, 0.555);
 
-    --color-txt-seccion-naveggacion: whitesmoke;
+    --color-nav-principal-item-hover: whitesmoke;
+    --color-nav-principal-item-active: rgb(0, 0, 0);
+    --color-nav-principal-item: black;
+
+    --color-nav-principal-item-border: rgba(0, 0, 0, 0.386);
 }
 
 body{
@@ -12,22 +18,25 @@ body{
 .nav-principal-item{
     font-size: large;
     font-weight: 400;
-    background-color: var(--bg-color-boton-navegacion);
-    color: rgb(0, 0, 0);
+    background-color: var(--bg-color-btn-nav);
+    color: var(--color-nav-principal-item);
     border-radius: 1px;
+
+}
+.nav-principal-item:hover{
+    background-color: var(--bg-color-btn-nav-hover);
+    color: var(--color-nav-principal-item-hover);
 
 }
 
 .navegacion-item{
-    border: 1px solid rgba(0, 0, 0, 0.662);
+    border: 1px solid var(--color-nav-principal-item-border);
 }
 
-.nav-principal-item:hover{
-    color: var(--color-txt-seccion-naveggacion);
 
-}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: var(--color-txt-seccion-naveggacion);
+    color: var(--color-nav-principal-item-active);
+    background-color: var(--b--bg-color-btn-nav-active);
 }
 
 .navbar{
