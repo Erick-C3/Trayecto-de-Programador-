@@ -78,6 +78,13 @@ const practicas = [
         "Operaciones booleanas",
         "https://docs.google.com/presentation/d/1yUEtq7W6yvOHNX0FIQTacAN8YPkpNahgrfClP2Ks1jQ/edit?usp=sharing",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        "reto",
+        1,
+        "Mejoras a la UI",
+        "https://docs.google.com/presentation/d/1QIRjJdysE34KLqI3e9FCZFgjJZQ22Fnxjm9R01Jbq3c/edit?usp=sharing",
+        "(Entrega Martes 25 - 23:59hrs)".fontcolor("red")
     )
 ];
 

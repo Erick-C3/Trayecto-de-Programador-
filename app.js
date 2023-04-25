@@ -3,7 +3,8 @@ import practicas from "./data/practicasInfo.js";
 
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-
+const NOMBRE_RETO = "Reto";
+const TIPO_MATERIAL_RETO = "reto";
 /**
  * Agrega los item a la pagina
  */
@@ -12,13 +13,27 @@ function agregarEnlacesItems(){
     let itemInfo = "def item info";
     let nombreItem = "def item nombre";
     let numeroItem = "def item numero";
+    
+    let tipoMaterial = "def tipo material";
+    let nombreMaterial = "def nombre material";
     practicas.reverse().forEach(practica => {
         nombreItem = practica.getModulo() + "-" + practica.getNumero() + " " + practica.getInfoExtra();
         numeroItem =  practica.getModulo() + "-" + practica.getNumero();
+        if ((practica.getModulo() == TIPO_MATERIAL_RETO)){
+            tipoMaterial = TIPO_MATERIAL_RETO
+            nombreMaterial = NOMBRE_RETO;
+            nombreItem = nombreMaterial + "-" + practica.getNumero() + " " + practica.getInfoExtra();
+            numeroItem =  practica.getNumero();
+        }else{
+            tipoMaterial = "practica";
+            nombreMaterial = "Práctica";
+            nombreItem = nombreMaterial+" "+ practica.getModulo() + "-" + practica.getNumero() + " " + practica.getInfoExtra();
+            numeroItem =  practica.getModulo() + "-" + practica.getNumero();
+        }
         enlaceItem = `
-            <a class="nav-link" href="#practica-${numeroItem}">Práctica ${nombreItem}</a>
+            <a class="nav-link" href="#${tipoMaterial}-${numeroItem}">${ nombreItem}</a>
         `
-        itemInfo = prepararHTMLItemInfo(numeroItem, practica, nombreItem);
+        itemInfo = prepararHTMLItemInfo(tipoMaterial, numeroItem, practica, nombreItem);
         document.querySelector("#enlaces-practicas").innerHTML += enlaceItem;
         document.querySelector("#enlaces-practicas-detalles").innerHTML += itemInfo;
     });
@@ -30,10 +45,10 @@ function agregarEnlacesItems(){
  * @param {Practica} practica a agregar
  * @returns html para  la info de la practica
  */
-function prepararHTMLItemInfo(numeroItem, practica, nombreItem){
+function prepararHTMLItemInfo(tipoMaterial, numeroItem, practica, nombreItem){
     return `
-        <div class="item" id="practica-${numeroItem}">
-            <h4>Practica ${nombreItem}</h4>
+        <div class="item" id="${tipoMaterial + "-"+numeroItem}">
+            <h4>${nombreItem}</h4>
             <ul>
                 <li>
                     <a href="${practica.getEnunciado()}">Enunciado</a>
