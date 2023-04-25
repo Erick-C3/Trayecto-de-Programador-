@@ -1,3 +1,6 @@
+:root{
+    --btn-recurso-color: rgb(77, 110, 181);
+}
 
 
 #recursos-contenedor{
@@ -8,4 +11,5 @@
 
 .btn-recurso{
     margin-top: 2vh;
+    background-color: var(--btn-recurso-color);
 }

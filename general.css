@@ -2,13 +2,15 @@
     --color-fondo-claro: whitesmoke;
     --bg-color-btn-nav: rgb(176, 206, 177);
     --bg-color-btn-nav-hover: rgb(47, 70, 48);
-    --b--bg-color-btn-nav-active: rgba(47, 129, 55, 0.555);
+    --bg-color-btn-nav-active: rgba(47, 129, 55, 0.555);
 
     --color-nav-principal-item-hover: whitesmoke;
     --color-nav-principal-item-active: rgb(0, 0, 0);
     --color-nav-principal-item: black;
 
     --color-nav-principal-item-border: rgba(0, 0, 0, 0.386);
+
+    --footer-bg-color: rgba(222, 222, 222, 0.405);
 }
 
 body{
@@ -36,7 +38,7 @@ body{
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--color-nav-principal-item-active);
-    background-color: var(--b--bg-color-btn-nav-active);
+    background-color: var(--bg-color-btn-nav-active);
 }
 
 .navbar{
@@ -54,4 +56,8 @@ body{
     background-color: rgb(225, 225, 225);
     border-radius: 20px;
     margin-top: 1vh;
+}
+
+footer{
+    background-color: var(--footer-bg-color) ;
 }
