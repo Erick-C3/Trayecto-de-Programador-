@@ -84,7 +84,7 @@ const practicas = [
         1,
         "Mejoras a la UI",
         "https://docs.google.com/presentation/d/1QIRjJdysE34KLqI3e9FCZFgjJZQ22Fnxjm9R01Jbq3c/edit?usp=sharing",
-        "(Entrega Martes 02-05 | hasta 23:59hrs)".fontcolor("red")
+        "(Entrega Miércoles 03-05 | hasta las 15:00 hrs)".fontcolor("red")
     ),
     new Practica(
         1,

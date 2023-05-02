@@ -2,6 +2,9 @@
     --btn-recurso-color: rgb(77, 110, 181);
 }
 
+.entregas{
+    background-color: rgba(216, 1, 1, 0.569) !important;
+}
 
 #recursos-contenedor{
     display: grid;
