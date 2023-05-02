@@ -11,10 +11,31 @@
     --color-nav-principal-item-border: rgba(0, 0, 0, 0.386);
 
     --footer-bg-color: rgba(222, 222, 222, 0.405);
+    --navbar-toggler-color-borde-nulo: rgba(255, 255, 255, 0);
 }
 
 body{
     background-color:  var(--color-fondo-claro);
+}
+
+.navbar-brand{
+    background-color: rgba(89, 204, 98, 0.363);
+    border-radius: 10px;
+    border: 2px solid rgba(109, 168, 109, 0.548);
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(77, 77, 77);
+}
+
+.navbar-toggler:hover {
+    border: 3px solid rgba(0, 0, 0, 0.384);
+    background-color: rgba(27, 202, 27, 0.24);
+    color: rgba(106, 156, 93, 0.603);
+}
+.navbar-toggler{
+    border: 3px solid rgba(0, 0, 0, 0.384);
+    color: var(--navbar-toggler-color-borde-nulo);
+    background-color: rgba(36, 175, 36, 0.514);
 }
 
 .nav-principal-item{

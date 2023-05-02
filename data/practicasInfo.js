@@ -85,6 +85,13 @@ const practicas = [
         "Mejoras a la UI",
         "https://docs.google.com/presentation/d/1QIRjJdysE34KLqI3e9FCZFgjJZQ22Fnxjm9R01Jbq3c/edit?usp=sharing",
         "(Entrega Martes 02-05 | hasta 23:59hrs)".fontcolor("red")
+    ),
+    new Practica(
+        1,
+        9,
+        "Aplicacion de Css al desarrollo",
+        "https://docs.google.com/presentation/d/1BJoDEoFqBEKXL9f-zmLLYXogZcI_ETQwnPn6x2oP2Kw/edit#slide=id.g1e21b0a3579_0_0",
+        INFO_EXTRA_DEF
     )
 ];
 

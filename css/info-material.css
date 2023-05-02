@@ -32,7 +32,7 @@
     
     #navegador-anidado-clases {
         margin: 0px;
-        padding: 0px !important;
+        padding: 15px 0px 0px 0px !important;
     }
     
     #navbar-example3{
@@ -54,7 +54,7 @@
 }
 
 .item{
-    padding-bottom: 30vh;
+    padding-bottom: 50vh;
 }
 
 
