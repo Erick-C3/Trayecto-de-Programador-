@@ -2,6 +2,18 @@
     --btn-recurso-color: rgb(77, 110, 181);
 }
 
+#contenedor-nav-lateral{
+    margin: 30px 10px 10px 30px;
+}
+
+#contenedor-nav-lateral button{
+    background-color: rgba(41, 45, 129, 0.835);
+}
+
+#contenedor-nav-lateral button:hover{
+    border: 2px solid rgb(174, 174, 218);
+}
+
 .entregas{
     background-color: rgba(216, 1, 1, 0.569) !important;
 }
