@@ -92,6 +92,13 @@ const practicas = [
         "Aplicacion de Css al desarrollo",
         "https://docs.google.com/presentation/d/1BJoDEoFqBEKXL9f-zmLLYXogZcI_ETQwnPn6x2oP2Kw/edit#slide=id.g1e21b0a3579_0_0",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        1,
+        10,
+        "Ejercicios 1 y 2 de switch y modularizacion",
+        "./",
+        INFO_EXTRA_DEF
     )
 ];
 
