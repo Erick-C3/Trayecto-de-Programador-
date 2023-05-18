@@ -3,8 +3,11 @@ import practicas from "./data/practicasInfo.js";
 
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-const NOMBRE_RETO = "Reto";
-const TIPO_MATERIAL_RETO = "reto";
+const NOMBRE_MATERIAL_1 = "Reto";
+const NOMBRE_MATERIAL_2 = "Trabajo practico";
+const TIPO_MATERIAL_1 = "reto";
+const TIPO_MATERIAL_2= "TP";
+
 /**
  * Agrega los item a la pagina
  */
@@ -19,10 +22,15 @@ function agregarEnlacesItems(){
     practicas.reverse().forEach(practica => {
         nombreItem = practica.getModulo() + "-" + practica.getNumero() + " " + practica.getInfoExtra();
         numeroItem =  practica.getModulo() + "-" + practica.getNumero();
-        if ((practica.getModulo() == TIPO_MATERIAL_RETO)){
-            tipoMaterial = TIPO_MATERIAL_RETO
-            nombreMaterial = NOMBRE_RETO;
-            nombreItem = nombreMaterial + "-" + practica.getNumero() + " " + practica.getInfoExtra();
+        if ((practica.getModulo() == TIPO_MATERIAL_1)){
+            tipoMaterial = TIPO_MATERIAL_1
+            nombreMaterial = NOMBRE_MATERIAL_1;
+            nombreItem = nombreMaterial + " " + practica.getNumero() + " " + practica.getInfoExtra();
+            numeroItem =  practica.getNumero();
+        }else if ((practica.getModulo() == TIPO_MATERIAL_2)){
+            tipoMaterial = TIPO_MATERIAL_2
+            nombreMaterial = NOMBRE_MATERIAL_2;
+            nombreItem = nombreMaterial + " " + practica.getNumero() + " " + practica.getInfoExtra();
             numeroItem =  practica.getNumero();
         }else{
             tipoMaterial = "practica";

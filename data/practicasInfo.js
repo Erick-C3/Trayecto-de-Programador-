@@ -84,7 +84,7 @@ const practicas = [
         1,
         "Mejoras a la UI",
         "https://docs.google.com/presentation/d/1QIRjJdysE34KLqI3e9FCZFgjJZQ22Fnxjm9R01Jbq3c/edit?usp=sharing",
-        "(Entrega Miércoles 03-05 | hasta las 15:00 hrs)".fontcolor("red")
+        INFO_EXTRA_DEF
     ),
     new Practica(
         1,
@@ -99,6 +99,13 @@ const practicas = [
         "Ejercicios 1 y 2 de switch y modularizacion",
         "./",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        "TP",
+        1,
+        "Automatizacion de aplicaciones web",
+        "https://docs.google.com/presentation/d/13Zbk9OemLchl9iTtra3rNeqHErk3Ifh-XRq1Xd3U2Sc/edit?usp=sharing",
+        "(Fecha de entrega a confirmar)".fontcolor("red")
     )
 ];
 
