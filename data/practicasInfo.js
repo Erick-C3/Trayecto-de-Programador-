@@ -105,7 +105,7 @@ const practicas = [
         1,
         "Automatizacion de aplicaciones web",
         "https://docs.google.com/presentation/d/13Zbk9OemLchl9iTtra3rNeqHErk3Ifh-XRq1Xd3U2Sc/edit?usp=sharing",
-        "(Fecha de entrega a confirmar)".fontcolor("red")
+        "(Fecha de entrega: 07-06)".fontcolor("red")
     )
 ];
 
