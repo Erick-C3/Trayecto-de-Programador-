@@ -81,7 +81,7 @@ const practicas = [
     ),
     new Practica(
         "reto",
-        1,
+        "1-1",
         "Mejoras a la UI",
         "https://docs.google.com/presentation/d/1QIRjJdysE34KLqI3e9FCZFgjJZQ22Fnxjm9R01Jbq3c/edit?usp=sharing",
         INFO_EXTRA_DEF
@@ -105,7 +105,21 @@ const practicas = [
         1,
         "Automatizacion de aplicaciones web",
         "https://docs.google.com/presentation/d/13Zbk9OemLchl9iTtra3rNeqHErk3Ifh-XRq1Xd3U2Sc/edit?usp=sharing",
-        "(Fecha de entrega: 07-06)".fontcolor("red")
+        INFO_EXTRA_DEF
+    ),
+    new Practica(
+        2,
+        1,
+        "Intro a SQL",
+        "./",
+        INFO_EXTRA_DEF
+    ),
+    new Practica(
+        "reto",
+        "2-1",
+        "Cat cafe - Desarrollo de base de datos autodidacta con pros y contras de Chat GPT ",
+        "./",
+        INFO_EXTRA_DEF
     )
 ];
 
