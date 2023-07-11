@@ -120,6 +120,13 @@ const practicas = [
         "Cat cafe - Desarrollo de base de datos autodidacta con pros y contras de Chat GPT ",
         "./",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        2,
+        2,
+        "Local storage",
+        "https://docs.google.com/presentation/d/1JRa8jkR4AQvQnR7e8tRspuFz-LOBsWcLuXXWAzfOhf8/edit?usp=sharing",
+        INFO_EXTRA_DEF
     )
 ];
 
