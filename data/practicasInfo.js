@@ -127,6 +127,14 @@ const practicas = [
         "Local storage",
         "https://docs.google.com/presentation/d/1JRa8jkR4AQvQnR7e8tRspuFz-LOBsWcLuXXWAzfOhf8/edit?usp=sharing",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        2,
+        3,
+        "Conexion con MySql y Node.js",
+        "https://docs.google.com/presentation/d/1TY-_q_dnuEKo56oXpGqrYyTsdP1FKcnsR-BHiEB2F2c/edit?usp=sharing",
+        INFO_EXTRA_DEF,
+        true
     )
 ];
 
