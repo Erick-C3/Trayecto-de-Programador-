@@ -105,7 +105,8 @@ const practicas = [
         1,
         "Automatizacion de aplicaciones web",
         "https://docs.google.com/presentation/d/13Zbk9OemLchl9iTtra3rNeqHErk3Ifh-XRq1Xd3U2Sc/edit?usp=sharing",
-        INFO_EXTRA_DEF
+        INFO_EXTRA_DEF,
+        true
     ),
     new Practica(
         2,
@@ -135,7 +136,14 @@ const practicas = [
         "https://docs.google.com/presentation/d/1TY-_q_dnuEKo56oXpGqrYyTsdP1FKcnsR-BHiEB2F2c/edit?usp=sharing",
         INFO_EXTRA_DEF,
         true
-    )
+    ),
+    new Practica(
+        "TP",
+        2,
+        "Creando soluciones",
+        "https://docs.google.com/presentation/d/1j124d7K2qDyYBgn36jhNS2RzJBfx1G6FHs_-ue-luqI/edit?usp=sharing",
+        "Fecha limite: a confirmar".fontcolor("red")
+    ),
 ];
 
 export default practicas;
