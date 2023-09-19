@@ -143,21 +143,21 @@ const practicas = [
         "Creando soluciones",
         "https://docs.google.com/presentation/d/1j124d7K2qDyYBgn36jhNS2RzJBfx1G6FHs_-ue-luqI/edit?usp=sharing",
         "Fecha limite: a confirmar".fontcolor("red")
-    ),,
+    ),
     new Practica(
         3,
         1,
         "Sintaxis de POO",
         "https://docs.google.com/presentation/d/1D24bFqlvgWVDWHL9Z6ividC7lcmUDkSl5mZK9eErHLA/edit?usp=sharing",
         INFO_EXTRA_DEF
-    ),,
+    ),
     new Practica(
         3,
         2,
         "Import y Require con clases",
         "https://docs.google.com/presentation/d/1XMhbP103tzuM8uyA2rpr2Opfqq_nNbu_r9jqhGG6PBo/edit?usp=sharing",
         INFO_EXTRA_DEF
-    ),,
+    ),
     new Practica(
         3,
         3,
@@ -165,6 +165,16 @@ const practicas = [
         "https://docs.google.com/presentation/d/1lWFejz2aG2qUi7PG8WeUbbx4w2mVW-iToCMDMsD1ElI/edit?usp=sharing",
         INFO_EXTRA_DEF
     ),
+    new Practica(
+        3,
+        4,
+        "Constructor y mejora de desarrollo",
+        "https://docs.google.com/presentation/d/1jUfgqHbELnvEs_scNYpne1FOB8QnNLlpXRCkyqKLAlw/edit?usp=sharing",
+        INFO_EXTRA_DEF
+    )
+
+
+    
 ];
 
 export default practicas;
