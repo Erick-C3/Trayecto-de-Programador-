@@ -171,6 +171,13 @@ const practicas = [
         "Constructor y mejora de desarrollo",
         "https://docs.google.com/presentation/d/1jUfgqHbELnvEs_scNYpne1FOB8QnNLlpXRCkyqKLAlw/edit?usp=sharing",
         INFO_EXTRA_DEF
+    ),
+    new Practica(
+        3,
+        5,
+        "Herencia",
+        "https://docs.google.com/presentation/d/1sJntX5Ii9iV3RDQj4NsYJh23_Ko9tp7dAQ1flMEn6ec/edit?usp=sharing",
+        INFO_EXTRA_DEF
     )
 
 
