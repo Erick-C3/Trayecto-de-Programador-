@@ -1,0 +1,16 @@
+{
+  "name": "pagina",
+  "version": "1.0.0",
+  "description": "- Dispone del cronograma visto hasta el momento además de los proyectos y ejercicios realizados",
+  "main": "app.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

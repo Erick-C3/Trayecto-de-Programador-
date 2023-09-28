@@ -142,7 +142,7 @@ const practicas = [
         2,
         "Creando soluciones",
         "https://docs.google.com/presentation/d/1j124d7K2qDyYBgn36jhNS2RzJBfx1G6FHs_-ue-luqI/edit?usp=sharing",
-        "Fecha limite: a confirmar".fontcolor("red")
+        "Fecha limite: Fines de octubre (aprox)".fontcolor("red")
     ),
     new Practica(
         3,
