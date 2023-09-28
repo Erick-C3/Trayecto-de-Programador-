@@ -1,6 +1,6 @@
 :root{
     --color-fondo-claro: whitesmoke;
-    --bg-color-btn-nav: rgb(176, 206, 177);
+    --bg-color-btn-nav: rgb(211, 228, 212);
     --bg-color-btn-nav-hover: rgb(47, 70, 48);
     --bg-color-btn-nav-active: rgba(47, 129, 55, 0.555);
 
@@ -40,7 +40,7 @@ body{
 
 .nav-principal-item{
     font-size: large;
-    font-weight: 400;
+    font-weight: 450;
     background-color: var(--bg-color-btn-nav);
     color: var(--color-nav-principal-item);
     border-radius: 1px;
@@ -60,6 +60,7 @@ body{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--color-nav-principal-item-active);
     background-color: var(--bg-color-btn-nav-active);
+    font-weight: 500;
 }
 
 .navbar{
